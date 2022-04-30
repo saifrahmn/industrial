@@ -1,0 +1,12 @@
+const videos = document.querySelectorAll("[data-video]");
+const videoButton = document.querySelector(".button-play");
+
+for (let i = 0; i < videos.length; i++) {
+  videos[i].addEventListener("play", function () {
+    videoButton.style.opacity = 0;
+  });
+
+  videos[i].addEventListener("pause", function () {
+    videoButton.style.opacity = 1;
+  });
+}

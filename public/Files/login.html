@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html >
+    <head >
+	
+    		<meta content="index, follow" name="robots">
+    	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	
+	
+
+    <link rel="icon" type="image/png" href="./login_file/logo.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="./login_files/logo.png" sizes="16x16">
+    
+
+	<title>Plasma Donation login - Login to your Dashboard</title>
+
+    <link href="./login_files/auth.2873a8888e7e7aa6bcda.css" rel="stylesheet">
+
+             
+    </head>
+
+<body class="">
+<div class="wrapper">
+    <div class="body-wrapper">
+        <div class="inner-wrapper">
+            <div class="inner-wrapper__body">
+                    <form class="auth-form" method="post" action="">
+                    <a href="" class="auth-form__logo">
+                
+<svg viewBox="0 0 65 19">
+    <title>Login</title>
+    
+</svg>
+            </a>
+
+            <h1 class="auth-form__heading">Welcome back</h1>
+        
+        <input type="hidden" name="_formtoken" value="da89d70fd0e48a6f73ff603852c2cfd6bee9ce4423f4d9547426dae8ee867973de66f21da93368dc">
+        <div class="form-group">
+            <select id="type" class="form-control form-control--stacked form-control--rounded-top">
+              <option selected hidden value="">Donor/Patient</option>
+              <option>Donor</option>
+              <option>Patient</option>
+              
+            </select>
+           
+          </div>
+        <div class="form-group">
+            <label class="screenreader-only">phone number</label>
+            <input class="form-control form-control--stacked form-control--rounded-top" name="phone" id="phone" type="number" required="" title="phone" placeholder="Phone" autocomplete="phone" autofocus="">
+        </div>
+        
+
+        <div class="form-group">
+            <label class="screenreader-only">Username</label>
+            <input class="form-control form-control--stacked form-control--rounded-top" name="username" id="email" type="text" required="" title="Username" placeholder="Username" autocomplete="username" autofocus="">
+        </div>
+
+        <div class="form-group">
+            <label class="screenreader-only">Password</label>
+            <input class="form-control form-control--rounded-bottom" name="password" id="password" type="password" required="" title="Password" placeholder="Password" autocomplete="current-password">
+        </div>
+
+       
+
+        <button class="button" id="addbtn" href="dashboard.html" type="submit">Log in</button>
+        
+                    <footer>
+                <p class="auth-form__link">
+                    No account yet?                    <a id="butt" href="donor.html">Sign up</a>
+                </p>
+            </footer>
+            </form>
+            </div>
+        </div>
+
+            </div>
+</div>
+
+
+<img height="0" width="0" style="display:none" src="./login_files/tr">
+<script src="https://www.gstatic.com/firebasejs/8.6.3/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.6.3/firebase-database.js"></script>
+
+<script src="https://www.gstatic.com/firebasejs/8.6.5/firebase-auth.js"></script>
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/8.6.3/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  var firebaseConfig = {
+    apiKey: "AIzaSyBL7eti2bwxZo1TcGBrcEMXbk5uJeLu988",
+    authDomain: "industrial2-70d5a.firebaseapp.com",
+    databaseURL: "https://industrial2-70d5a-default-rtdb.firebaseio.com",
+    projectId: "industrial2-70d5a",
+    storageBucket: "industrial2-70d5a.appspot.com",
+    messagingSenderId: "993487457441",
+    appId: "1:993487457441:web:d262442be8b5787ed834e0",
+    measurementId: "G-3T2PFZDVQV"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
+
+
+<script src="app2.js"></script>
+
+</body></html>

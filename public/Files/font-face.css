@@ -1,0 +1,39 @@
+@font-face {
+  font-family: 'Domaine Sans Text Ducasse';
+  font-weight: 300;
+  font-style: normal;
+  src: url(./custom-fonts/Ducasse-Light.generated.eot);
+  src: url(./custom-fonts/Ducasse-Light.generated.woff2) format('woff2'),
+  url(./custom-fonts/Ducasse-Light.generated.ttf)  format('truetype'),
+  url(./custom-fonts/Ducasse-Light.generated.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'Domaine Sans Text Ducasse';
+  font-weight: 500;
+  font-style: normal;
+  src: url(./custom-fonts/Ducasse-Medium.generated.eot);
+  src: url(./custom-fonts/Ducasse-Medium.generated.woff2) format('woff2'),
+  url(./custom-fonts/Ducasse-Medium.generated.ttf)  format('truetype'),
+  url(./custom-fonts/Ducasse-Medium.generated.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'Domaine Sans Text Ducasse';
+  font-weight: 700;
+  font-style: normal;
+  src: url(./custom-fonts/Ducasse-Bold.generated.eot);
+  src: url(./custom-fonts/Ducasse-Bold.generated.woff2) format('woff2'),
+  url(./custom-fonts/Ducasse-Bold.generated.ttf)  format('truetype'),
+  url(./custom-fonts/Ducasse-Bold.generated.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'DIN Alternate';
+  font-weight: 700;
+  font-style: normal;
+  src: url(./custom-fonts/DINAlternate-Bold.generated.eot);
+  src: url(./custom-fonts/DINAlternate-Bold.generated.woff2) format('woff2'),
+  url(./custom-fonts/DINAlternate-Bold.generated.ttf)  format('truetype'),
+  url(./custom-fonts/DINAlternate-Bold.generated.woff) format('woff');
+}

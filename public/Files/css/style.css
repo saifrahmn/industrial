@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    border size: border-box;
+}
+header{
+    width: 100%; height: auto;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav{
+    width: 100%; height: 13vh;
+    background: #b38f59;
+    border-right-color: black;
+    color: #b38f59; display: flex;justify-content: space-between;
+    align-items: center; text-transform: uppercase;
+    
+}
+
+nav  .logo {
+    width: 30%;
+    margin-left: 5%;
+}
+nav .logo H{
+     width: 25%;
+     text-align: center;
+     color: white;
+     font-weight: bold;
+}
+nav .menu{
+    width:30%;
+    display: flex; justify-content: space-between;
+}
+nav .menu a{
+      text-decoration: none;
+      color:white;
+      font-size: 15px;
+      font-weight: 500;
+      margin-right: 5%;
+      transition: all .5s ease;
+      
+
+}
+nav .menu a:first-child{
+    color: black;
+}
+
+
+main{
+    width: 100%;
+    height: 35vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+section {
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: auto;
+    padding-top: 50px;
+    line-height: 1.715;
+
+
+}
+
+section h1{
+     font-size: 30px;
+     font-weight: 300; 
+
+}
+section p{
+    font-size: 17px;
+    color: darkgrey;
+    line-height: 3;
+}
+section h2{
+    font-size: 30px;
+     font-weight: 300; 
+}
